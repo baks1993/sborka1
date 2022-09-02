@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+
+html body{
+    margin: 0;
+    box-sizing: border-box;
+    background:#d8d8d9;
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 10px auto;
+}
+
+/* SITEFOOTER */
+
+.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4 {
+    font-size: 20px;
+    color: #ff5912;
+}
+
+.site-footer{
+    background: #fff;
+    padding: 40px 0 20px 0;
+}
+
+.row{
+    margin: 0 -1.25%;
+}
+.row::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+
+ul.footer-nav a{
+    color: #28313b;
+    text-decoration: none;
+}
+ul.footer-nav a:hover{
+    color: #ff5912;
+}
+ul.footer-nav .active{
+    color:#ff5912
+}
+ul.footer-nav li{
+    margin-bottom: 20px;
+}
+.payment-img{
+    width: 38px;
+    height: 25px;
+    background-image: url(../images/payment.png);
+    display: inline-block;
+}
+.master {
+    background-position: -38px;
+}
+.nationalbank{
+    background-position: -108px;
+}
+
+.payment-img.paypal{
+    background-position: -215px;
+    width: 55px;
+    height: 25px;
+    background-image: url(../images/payment.png);
+    display: inline-block;
+}
+
+/* HEADER_____________________________________________________ */
+
+.site-header{
+    min-height: 180px;
+    background: #fff;
+    /* margin: 0 0 1.25% 0; */
+}
+.row .icon{
+    position: relative;
+    left: 100px;
+}
+.header-line{
+    min-height: 60px;
+    border-bottom: 1px solid #edeff1;
+}
+
+.main-logo {
+    margin-top: 24px;
+}
+
+.main-nav li{
+    float: left;
+    list-style: none;
+    margin: 10px 25px;
+}
+
+.main-nav a {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.main-nav ul::after {
+display: block;
+content: "";
+clear: both;
+}
+
+.main-nav .active a{
+    color: rgb(5, 202, 5);
+}
+.icon i{
+    font-size: 2rem;
+    margin: 15px;
+    color: green;
+    cursor:pointer;
+}
+.icon{
+    float: left;
+    width: 20%;
+}
+
+.header-line .icon-masangers i{
+    float: right;
+    font-size: 30px;
+    margin: 10px 10px;
+    color: green;
+    cursor: pointer;
+}
+
+.header-line .contact{
+    float: left;
+    color: green;
+}
+.header-line .contact li {
+display: inline-block;
+font-size: 15px;
+margin: 0 20px;
+}
+
+.header-line .contact li {
+    font-size: 1.0rem;
+    color: rgb(38, 162, 34);
+    font-weight: 100;
+}
+
+.header-line ul i{
+    font-size: 30px;
+    cursor: pointer ;
+}

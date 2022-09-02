@@ -1,0 +1,393 @@
+*{
+    box-sizing: border-box;
+}
+
+html body{
+    margin: 0;
+    box-sizing: border-box;
+    background:#d8d8d9;
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 10px auto;
+}
+
+.row{
+    margin: 0 -1.25%;
+}
+.row::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+/* GOOOOOODS CAAARRTS */
+.goods-block {
+    margin:70px 0;
+}
+
+.goods-cart img{
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.img-sales {
+    max-height: 300px;
+    transition: all ease 0.4s;
+}
+
+.goods-cart{
+    width: 250px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #fff;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.goods-cart p.option{
+    position: relative;
+    bottom: 5px;
+}
+
+/* GOOOODSS  CARRRRRRTS */
+
+/* opt hooveeeer */
+
+.goods-cart:hover {
+    box-shadow: 1px 1px 5px #000;
+}
+
+.goods-cart:hover .opt-cart{
+    display: block;
+    opacity: 1;
+    transition: ease all 1s;
+}
+.goods-cart:hover .img-sales{
+    max-height: 120px;
+}
+
+.opt-cart {
+    display: none;
+    opacity: 0;
+    transition: all ease 1s;
+}
+
+h3:hover{
+    box-shadow: 1px 1px 3px #000;
+}
+
+.goods-cart .goods-name{
+    color: rgb(61, 95, 128);
+}
+.goods-cart .cost{
+    color: orange
+}
+
+.goods-name, .cost{
+    margin: 15px 0;
+}
+
+.goods-cart p.option {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.color-circle {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 3px;
+    border-radius: 100%;
+}
+.color {
+    border-bottom: 1px solid grey;
+}
+
+p.color{
+    position: relative;
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+p.option{
+    margin: 0px;
+    padding: 0px;
+}
+
+.link{
+    margin: 0px 0;
+    display: inline-block;
+}
+
+
+.bg-orange {
+    background-color: #ff7013;
+}
+.bg-blue {
+    background:blue;
+}
+.bg-green {
+    background: green;
+}
+.bg-yellow{
+    background: yellow;
+}
+
+/* SIDE BARRRRRRRRRRRRRRRRRRRRRRRR */
+
+/* SIIIIIIIIIIDDDDDDDDDDEEBBBARRRRRRRR */
+
+.sidebar-block {
+    float: left;
+    background:  #fff;
+    width: 89%;
+    margin: 5%;
+    padding: 20px 0;
+}
+
+.sidebar-block a{
+    color: #28313b;
+    text-decoration: none;
+}
+
+.sidebar-block h3{
+    font-size: 1rem;
+    color:#ff7013;
+}
+
+.sidebar-block ul{
+    text-align: center;
+    padding: 0;
+}
+
+.sidebar-block ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.active-sqwere::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border: 4px solid #ff5912;
+    margin-right: 10px;
+}
+
+.inactive-sqwere::before {
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-right: 10px;
+    background: #edf0f2;
+    }
+.link i {
+    position: relative;
+    top:3.5px;
+    margin: 5px;
+    }
+/* SIIIIIIIIIDE BAAAARRRRRRR */
+
+    /* DOUBLE_SLIDER */
+
+    .double-slider h3 {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .double-slider {
+        position: relative;
+        min-height: 80px;
+    }
+
+    .double-slider .line-1 {
+        height: 2px;
+        background: rgba(128, 128, 128, 0.373);
+        position: absolute;
+        top: 60px;
+        left: 20px;
+        right: 20px;
+    }
+
+    .double-slider .line-2 {
+        height: 2px;
+        background: black;
+        position: absolute;
+        top: 60px;
+        left: 50px;
+        right: 50px;
+    }
+
+    .double-slider.left-dot, .double-slider.right-dot {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+    }
+    .double-slider .dot {
+        width: 12px;
+        height: 12px;
+        background: black;
+        border-radius: 100%;
+        margin: 0 auto;
+    }
+
+    .double-slider .right-dot {
+        position: absolute;
+        right:30px;
+        bottom: 12.5px;
+    }
+
+    .double-slider .left-dot {
+        position: absolute;
+        left: 40px;
+        bottom: 12.5px;
+    }
+    /* DOUBLE SLIDER */
+
+    /* PRICE FORM INPUT */
+    .price-form input{
+        margin: 15px;
+        display: inline-block;
+        width: 50px;
+        margin-left: 5px;
+    }
+    .price-form{
+        margin-left: 20px;
+    }
+                /* PRICE FORM */
+
+
+    /* SINGLEE  GOOODS */
+.single-goods {
+    background: #fff;
+    /* padding: 100px 0; */
+}
+
+.single-goods-right {
+    float: right;
+    width: 57.5%;
+    margin: 0 1.25%;
+}
+
+.single-goods-left {
+    float: left;
+    width: 37.5%;
+    margin: 0 1.25%;
+    text-align: center;
+}
+
+.goods-max{
+    max-width: 300px;
+    max-height: 240px;
+}
+
+.single-goods::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.goods-img-max img {
+    padding: 20px;
+    min-height: 240px;
+    max-width: 300px;
+}
+
+.goods-img-min {
+    margin: 15px auto;
+
+}
+
+.goods-img-min img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.goods-img-min div {
+    width: 94px;
+    height: 65px;
+    display: inline-block;
+    overflow: hidden;
+    /* background-color: #edf0f2; */
+    line-height: 99px;
+    cursor: pointer;
+}
+
+.single-goods-cart .opt {
+    font-size: 18px;
+    margin-left: 30px;
+    color: #3c4751;
+}
+.single-goods-cart .full-opt {
+    font-size: 16px;
+    margin-left: 30px;
+    color: #3c4751;
+    margin: 10px auto;
+    line-height: 30px;
+}
+
+.single-goods-cart h1 {
+    color: #ff7013;
+}
+
+/* choose size */
+
+.choose-size::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.choose-size .left {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.choose-size .right {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+.choose-size .active {
+    font-weight: bold;
+    color: #ff7013;
+}
+
+.choose-size{
+    font-size: 18px;
+    padding: 50px 0;
+    border-top: 2px solid #edeff1;
+    border-bottom: 2px solid #edeff1;
+}
+
+/* ENDD */
+
+/* ORDERRRRRRR 2 */
+
+.order {
+    padding: 20px;
+}
+
+.price {
+    margin: 20px;
+}
+
+.icons {
+    float: right;
+}
+.icons i{
+    margin: 20px;
+    font-size: 25px;
+    
+}

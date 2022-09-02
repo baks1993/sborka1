@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+html body{
+    margin: 0;
+    box-sizing: border-box;
+    background:#d8d8d9;
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+.container {
+    width:1200px;
+    margin: 10px auto;
+}
+
+.block-adv{
+    height: 110px;
+    background: #fff;
+    border: 1px solid #eaedef;
+    margin: 0 0 0 1.25%;
+}
+
+.block-adv .sale{
+    width: 25%;
+    float: left;
+
+}
+
+.sale-img{
+    width: 113px;
+    height: 80px;
+    background-image: url(../images/sales.jfif);
+    text-align: center;
+    margin: 5% auto;
+}
+
+.sale-img p {
+    position: relative;
+    top: 66px;
+    color: #147fe7;
+}
+.block-adv .slogan::after{
+    content: "";
+    display: block;
+    margin: 0px;
+    width: 1px;
+    height: 50px;
+    background: gray;
+    position: absolute;
+    right: -10px;
+    top: 10px;
+}
+.block-adv .slogan{
+    width: 40%;
+    float: left;
+    text-align: center;
+    min-height: 100px;
+    position: relative;
+    top: 15px;
+}
+
+.block-adv h3{
+    color: #ff7013;
+    font-size: 22px;
+    margin: 5%;
+}
+
+.block-adv p{
+    color:blue;
+    font-size: 11px;
+    margin: 1%;
+}
+.block-adv .adv-price i{
+    font-size: 40px;
+    position:relative;
+    text-align: center;
+    margin-left: 32px;
+    margin-top: 30px;
+}
+
+.block-adv .adv-price i:hover{
+    color: red;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+
+.block-adv .adv-price p{
+    float: right;
+    font-size: 2rem;
+    margin: 25px;
+    text-align: center;
+    position: relative;
+    top: 8px;
+}
+.block-adv .adv-price p:hover{
+    color: red;
+    cursor: pointer;
+    padding-top: 5px;
+}

@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+}
+
+html body{
+    margin: 0;
+    box-sizing: border-box;
+    background:#d8d8d9;
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 10px auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+hr{
+    margin: 1.25%;
+}
+
+.left {
+    float: left;
+}
+
+.orange{
+    color: #ff7013;
+}
+.orange-bg{
+    background: #ff7013;
+}
+
+.white{
+    background: white;
+}
+
+.right {
+    float: right;
+}
+
+p {
+    margin: 0;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+h3 {
+    margin: 20px 0 20px 0;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-description{
+    text-align: center;
+    margin: 0 0 3% 0;
+}
+
+h3 span{
+    color: #ff7013;
+}
+
+.row{
+    margin: 0 -1.25%;
+}
+
+.row::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.block-270{
+    width: 22.5%;
+    min-height: 100px;
+    margin: 1% 1.25%;
+    float: left;
+}
+.block-270 p{
+    text-align: center;
+}
+
+
+.block-900{
+    width: 72.5%;
+    min-height: 100px;
+    margin: 0 1.25%;
+    float: left;
+}
+
+.block-1170{
+    width: 97.5%;
+    min-height: 100px;
+    margin: 0 1.25%;
+    float: left;
+}
+
+.block-370{
+    width: 30.5%;
+    min-height: 100px;
+    margin: 0 1.25%;
+    float: left;
+}
+
+.block-300 {
+    width: 22.5%;
+    min-height: 100px;
+    margin:  1.25%;
+    float: left;
+}
+.block-570 {
+    width: 47.5%;
+    min-height: 100px;
+    margin: 0 1.25%;
+    float: left;
+}
+
+.block-670 {
+    width: 58.3333%;
+    min-height: 100px;
+    margin: 0 1.25%;
+    float: left;
+}
+
+.block-3370{
+    width: 27%;
+    min-height: 100px;
+    margin: 0 1.25%;
+    float: left;
+    position: relative;
+    right: 50px;
+}
+.block-3370 img{
+    position: relative;
+    left: 130px;
+}
+.block-3370 p{
+    text-align: center;
+    font-size: 15px;
+}
+.block-140{
+    width: 10%;
+    min-height: 100px;
+    margin: 0 1.25%;
+    float: left;
+}
+/* BEST SALESSSSSS */
+
+.best-sales {
+padding: 20px;
+background: #fff;
+}
+
+.best-sales img {
+   max-width: 40%; 
+   /* margin: 0 0 10% 14%; */
+}
+
+.best-sales-discription {
+    max-width: 60%;
+}
+.best-sales-discription h4 {
+    margin-top: 0;
+    color: #ff7013;
+}
+
+.sales-price {
+    color: gray;
+    font-weight: bold;
+}
+
+.best-sales i{
+    position: relative;
+    right: 40px;
+}
+.best-sales .sales-price {
+    position: relative;
+    left: 40px;
+}
+/* BESSSSSSSTTTT  SAAAAAAAAAELEEEEEEEES */
+
+/* LAATTTTTTTTTEEEEEEEERRRRRR */
+
+.letter {
+    min-height: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: white;
+    /* padding: 16px; */
+}
+.letter .block-270 i {
+    font-size: 30px;
+    color: #ff7013;
+}
+.type-email {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.letter .about {
+    margin-top: 35px;
+}
+.letter .about p{
+    color: gray;
+}
+
+.letter .news {
+    margin-right: 20px;
+}
+
+.join {
+    padding: 25px 25px;
+    background: #ff7013;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    /* margin-top: 23px; */
+    border-radius: 30%;
+    margin: 1.25% auto;
+}
+
+.letter i{
+    position: relative;
+    bottom: 24px;
+}
+/* DDDDDDDDEEEEEEEEEEVVVVVVVIIIIIIDDDDDER */
+.devider{
+    width: 97%;
+    min-height: 100px;
+    line-height: 100px;
+    margin: 50px 0 50px 1.2%;
+}
+
+.circle{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
